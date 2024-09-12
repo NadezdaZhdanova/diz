@@ -1,21 +1,52 @@
     html {
        padding: 20px;
-	   background-image: url(bg_page2.png);
+	   background-image: url(bg_page2.avif);
        background-color: maroon;	   
   }
     body {
        padding: 40px;
-	   background: url(bg_page.png) repeat-x;
-       background-color: #3366CC;
+	   background: url(bg_page.jpg) repeat-x;
+       background-color: #FFFFE0;
+	   margin: 0 auto; /*Выравнивание элемента по центру родителя*/
+	   width: 90%; /*Размер в процентах от всего размера родительского элемента*/
+       border-radius: 25px; /*Скругление углов*/
+	   box-shadow: 25px 25px 25px rgba(0,0,0,0.5); /*РТень от элемента с параметрами положения и размытия*/
+	  
   }
      p {
      padding: 20px;
-	 color: rgb(0,0,200); 
+	 color: rgb(0,0,0); 
 	 font-size:18px;
 	 font-family: "Poiret One", sans-serif;
   }
+ p1 {
+     padding: 600px;
+	 color: rgb(0,0,0); 
+	 font-size:20px;
+	 font-family: "Poiret One", sans-serif;
+ }
   h2 {
 	    font-family: "IBM Plex Serif", serif;
+		color: #A0522D;
+		font-size: 3em;
+		border-bottom: 2px black solid;
+		padding: 0 0 10px 350px;
+		margin: 0;
+		background: url(head-icon.png) no-repeat 10px 25px;
+		
+  }
+  .intro {
+	  color: rgb (40,40,40);
+	  font-family: "PT Sans Narrow", sans-serif;
+	  font-size: 1.2em;
+	  margin-left: 0;
+	  margin-bottom: 25px;
+  }
+  h1 {
+	  text-align: center;
+	  font-size: 4.5em;
+	  color: #A0522D;
+	  border-bottom: 2px black solid;
   }
   
   
