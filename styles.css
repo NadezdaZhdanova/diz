@@ -40,33 +40,37 @@ table {
 	padding: 15px;
 	background: #E9F5FE;
 }
+.sidebar p {
+	padding-left: 20px; 
+}
 
 body {
-	color: #B1967C;
+	color: #000000;
 	font-family: "Playfair Display", serif;
-	padding-top: 115px;
-	background: #CDE6FF url(images/bg_body.png) repeat-x;
+	padding-top: 140px;
+	background: #FFFFFF url(images/bg_body.png) repeat-x;
 	max-width: 800px;
 	margin: 0 auto;
 }
 h1 {
 	font-size: 3em;
-	font-family: "Arial Black", Arial, sans-serif;
-	margin-bottom: 15px;
+	font-family: "Amatic SC", sans-serif;
+	margin-bottom: 5px;
 }
 h2 {
-	font-size: 2.2em;
-	color: #AFC3D6;
+	font-size: 1.8em;
+	color: #172CAF;
 	margin-bottom: 5px;
 }
 .main h2 {
-	color: #E8A064;
+	color: #172CAF;
 	border-bottom: 2px white solid;
 	background: url(images/bullet_flower.png) no-repeat;
+	background-size: 70px 35px;
 	padding: 0 0 2px 80px;
 }
 .main p {
-color: #616161;
+color: #2E3983;	
 font-family: "Playfair Display", serif;
 font-size: 1.1em;
 line-height: 150%;
@@ -75,7 +79,7 @@ margin-bottom: 10px;
 }
 p.intro {
 	color: #6A94CC;
-	font-family: Arial Helevetica, sans-serif;
+ font-family: "Oswald", sans-serif;
 	font-size: 1.2em;
 	margin-left: 0;
 	margin-bottom: 15px;
