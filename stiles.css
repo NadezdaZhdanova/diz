@@ -35,7 +35,7 @@
 		background: url(head-icon.png) no-repeat 10px 25px;
 		
   }
-  .intro {
+  .intro { /*Задаем параметры класса intro*/
 	  color: rgb (40,40,40);
 	  font-family: "PT Sans Narrow", sans-serif;
 	  font-size: 1.2em;
@@ -48,5 +48,9 @@
 	  color: #A0522D;
 	  border-bottom: 2px black solid;
   }
-  
-  
+	 h1.intro {
+font-size: 3.2em;		
+	}
+		#podr {
+		color: white;
+	}
