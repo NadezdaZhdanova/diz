@@ -28,13 +28,12 @@ table {
   border-spacing: 0;
 } 
 /* конец кода сброса стилей браузера */
-
 html {
-background-color: rgb(253,248,171);
+	background-color: #F19CBB;
 }
 body {
-	background-color: rgb(255,255,255);
-	border: 3px solod rgb(75,75,75);
+	background-color: rgb(255,192,203);
+	border: 3px solid rgb(75,75,75);
 	max-width: 760px;
 	margin-top: 20px;
 	margin-left: auto;
@@ -44,40 +43,44 @@ body {
 }
 h1 {
 	font-size: 2.75em;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-weight: normal;
+	font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 	text-align: center;
 	letter-spacing: 1px;
-	color: rgb(133,161,16);
-	text-transform:uppercase;
-	background-color: rgb(226,235,180);
-	padding: 9px 15px 2px 15px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #F19CBB;
+	padding: 5px 15px 2px 15px;
 	margin: 0 -15px 20px -15px;
 }
 h2 {
 	font-size: 1.5em;
-	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
-	color: rgb(249,107,24);
-	border-top: 2px dotted rgb(141,165,22);
-	border-bottom: 2px dotted rgb(141,165,22);
+	font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+	color: #F19CBB;
+	border-top: 9px dotted #F19CBB;
+	border-bottom: 9px dotted #F19CBB;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin: 15px 0 5px 0;
+	overflow: hidden;
 }
 .sidebar {
 	width: 30%;
 	float: right;
 	margin: 10px;
-	background: rgb(100,78,0);
+	background: #F19CBB;
 	padding: 10px 20px;
-	border: 1px dotted rgb(7,25,67);
-	border-top: 20px solid rgb(7,25,67);
+	border: 1px dotted #F19CBB;
+	border-top: 20px solid #F19CBB;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
 }
-.sidebar h2{
+.sidebar h2 {
 	border: none;
 	margin-top: 0;
 	padding: 0;
-	
 }

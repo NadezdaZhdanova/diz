@@ -29,10 +29,10 @@ table {
 } 
 /* конец кода сброса стилей браузера */
 html {
-	background-color: #71bdf0;
+	background-color: #FFC0CB;
 }
 body {
-	background-color: rgb(255,255,255);
+	background-color: rgb(255,192,203);
 	border: 3px solid rgb(75,75,75);
 	max-width: 760px;
 	margin-top: 20px;
@@ -51,19 +51,18 @@ h1 {
 	letter-spacing: 1px;
 	color: white;
 	text-transform: uppercase;
-	background-color: #71aef0;
+	background-color: #FFC0CB;
 	padding: 5px 15px 2px 15px;
 	margin: 0 -15px 20px -15px;
 }
 h2 {
 	font-size: 1.5em;
-	font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-	color: #0d3354;
-	border-top: 9px dotted #71aef0;
-	border-bottom: 9px dotted #71aef0;
+	font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+	color: #FFC0CB;
+	border-top: 9px dotted #FFC0CB;
+	border-bottom: 9px dotted #FFC0CB;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin: 15px 0 5px 0;
@@ -73,10 +72,10 @@ h2 {
 	width: 30%;
 	float: right;
 	margin: 10px;
-	background: #71aef0;
+	background: #FFC0CB;
 	padding: 10px 20px;
-	border: 1px dotted #71aef0;
-	border-top: 20px solid #71aef0;
+	border: 1px dotted #FFC0CB;
+	border-top: 20px solid #FFC0CB;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
 }
